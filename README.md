@@ -41,7 +41,7 @@ like this in your .xinitrc:
     exec dwm
 
 
-## Configuratio\n
+## Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
