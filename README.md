@@ -3,11 +3,13 @@
 dwm is an extremely fast, small, and dynamic window manager for X.
 
 
+
 ## Requirements
+
 In order to build dwm you need the Xlib header files.
 
-
 ## Installation
+
 Edit config.mk to match your local setup (dwm is installed into
 the /usr/local namespace by default).
 
@@ -16,6 +18,7 @@ necessary as root):
 
     make clean install
 
+Might need `sudo` privilages
 
 ## Running dwm
 Add the following line to your .xinitrc to start dwm using startx:
@@ -30,5 +33,6 @@ the DISPLAY environment variable is set correctly, e.g.:
 (This will start dwm on display :1 of the host foo.bar)
 
 ## Configuration
+
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
